@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:fitsSystemWindows="true"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="store_image_in_sqlite.StoreImageActivity">
+
+    <Button
+        android:id="@+id/btnSelectImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="5dp"
+        android:text="Select Image" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/imgView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/btnSelectImage"
+        android:layout_marginBottom="5dp" />
+
+    <Button
+        android:id="@+id/btnSaveImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgView"
+        android:layout_marginBottom="5dp"
+        android:text="Save Image in DB" />
+
+    <Button
+        android:id="@+id/btnLoadImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnSaveImage"
+        android:layout_marginBottom="5dp"
+        android:text="Load Image in DB" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/loadedImg"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/btnLoadImage"
+        android:layout_marginBottom="5dp" />
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/loadedImg"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:text="Select an image and save in DB"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>

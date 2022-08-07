@@ -1,0 +1,17 @@
+<html>
+<script>
+    function echoBack()
+    {
+            var txtVal = document.getElementById("myText").value;
+            window.MyJSClient.getStringFromJS(txtVal);
+    }
+
+</script>
+<body style="padding:10px;">
+<br/><br/>
+Enter yout text :
+<br/><br/><input type="text" name="myText" id="myText" style="padding:10px;">
+<br/><br/>
+<input type="button" value="Send to Android" onclick="echoBack()" style="padding:10px;">
+</body>
+</html>

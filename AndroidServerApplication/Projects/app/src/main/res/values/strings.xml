@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AndroidTutorialProjects</string>
+    <string name="title_activity_select_image">SelectImageActivity</string>
+</resources>
