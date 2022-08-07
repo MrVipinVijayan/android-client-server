@@ -83,3 +83,10 @@ lint/generated/
 lint/outputs/
 lint/tmp/
 # lint/reports/
+ClientApplication/.idea/gradle.xml
+ClientApplication/.idea/jarRepositories.xml
+ClientApplication/.idea/misc.xml
+ClientApplication/.idea/codeStyles/Project.xml
+.DS_Store
+AndroidTutorialProjects/.idea/compiler.xml
+AndroidTutorialProjects/.idea/jarRepositories.xml
